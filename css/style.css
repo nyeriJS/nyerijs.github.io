@@ -23,13 +23,13 @@ body {
 }
 
 a {
-  color: #27E1CE;
+  color: #0d6ea6;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #27E1CE;
+  color: #0d6ea6;
   outline: none;
 }
 
@@ -46,17 +46,17 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #27E1CE;
+  background: #0d6ea6;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #27E1CE;
+  background: #0d6ea6;
 }
 
 ::selection {
   color: #fff;
-  background: #27E1CE;
+  background: #0d6ea6;
 }
 
 .btn {
@@ -334,7 +334,7 @@ h1, h2, h3, h4, h5, h6, figure {
   color: black;
 }
 #fh5co-header h1 a > span {
-  color: #27E1CE;
+  color: #085582;
 }
 #fh5co-header h1 a:hover, #fh5co-header h1 a:active, #fh5co-header h1 a:focus {
   text-decoration: none;
@@ -347,7 +347,7 @@ h1, h2, h3, h4, h5, h6, figure {
   content: '';
   width: 8px;
   height: 8px;
-  background: #27E1CE;
+  background: #085582;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -401,7 +401,7 @@ h1, h2, h3, h4, h5, h6, figure {
   bottom: 7px;
   left: 10px;
   right: 10px;
-  background-color: #27E1CE;
+  background-color: #085582;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   -moz-transform: scaleX(0);
@@ -416,7 +416,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-header nav ul li a:hover {
   text-decoration: none;
-  color: #27e1ce;
+  color: #085582;
 }
 #fh5co-header nav ul li a:hover:after {
   visibility: visible;
@@ -519,8 +519,9 @@ h1, h2, h3, h4, h5, h6, figure {
   min-height: 700px;
 }
 #fh5co-hero .flexslider .slider-text > .slider-text-inner h2 {
+  padding: 20px 0;
   font-size: 70px;
-  font-weight: 400;
+  font-weight: 600;
   color: #fff;
 }
 @media screen and (max-width: 768px) {
